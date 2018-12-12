@@ -1,4 +1,4 @@
-package com.daniellogerstedt.d2.lab11.Lab11Application;
+package com.daniellogerstedt.Lab11Application;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
