@@ -1,10 +1,8 @@
 package com.daniellogerstedt.Lab11Application;
 
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Album {
@@ -16,6 +14,9 @@ public class Album {
     public int songCount;
     public int length;
     public String imageURL;
+
+    @OneToMany
+    public List<Song> songs;
 
     public Album () {}
 

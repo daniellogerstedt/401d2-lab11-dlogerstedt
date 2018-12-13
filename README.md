@@ -22,3 +22,5 @@
 * "Localhost:8080/capitalize/anything" -> page containing "ANYTHING"
 
 * "Localhost:8080/albums" -> provides the index of albums that exist in the local database. From this page you can add new albums to the database.
+
+* "Localhost:8080/albums/1" -> provides the album information for the album with an id of 1. This can be used to look at any of the albums present. This page also allows songs to be added to specific albums.
